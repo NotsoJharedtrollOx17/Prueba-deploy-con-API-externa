@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 def create_app():
-    frontend_deploy = '' # TODO change it to the proper frontend deployment URL 
+    frontend_deploy = 'https://notsojharedtrollox17.github.io/Prueba-deploy-con-API-externa/'
 
     app = Flask(__name__)
     CORS(app, origins=['http://127.0.0.1:5173', frontend_deploy])

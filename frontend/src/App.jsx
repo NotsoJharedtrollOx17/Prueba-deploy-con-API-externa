@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [API_ROUTE] = useState('https://proyecto-moviles.onrender.com'+'/')
+  const [API_ROUTE] = useState('https://prueba-deploy-frontend-oz6w.onrender.com'+'/')
   const [test, setTest] = useState('')
   const [data_test, setDataTest] = useState('')
   const [count, setCount] = useState(0)
